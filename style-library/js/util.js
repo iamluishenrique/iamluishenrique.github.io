@@ -5,7 +5,7 @@ function DataEHora() {
 	
 	datacompleta += " / " + (("0" + data.getHours()).slice(-2)) + ":" + (("0" + data.getMinutes()).slice(-2)) + ":" + (("0" + data.getSeconds()).slice(-2));
 	
-	$('#horario').text(datacompleta);
+	$('#datetime').text(datacompleta);
 	
 	//var datahora = document.querySelector("#horario");
 	
